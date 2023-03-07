@@ -40,11 +40,11 @@ public class Bicicleta extends Vehiculo{
 
     @Override
     public String toString() {
-        return "Bicicleta{" +
-                "tipo='" + tipo + '\'' +
-                ", numvelocidades=" + numvelocidades +
-                ", tamañorin=" + tamañorin +
-                '}';
+        return super.toString()+ "\nBicicleta" +
+                "\n- Tipo = " + tipo +
+                "\n- Número Velocidades = " + numvelocidades +
+                "\n- Tamaño Rin = " + tamañorin
+                ;
     }
 
     public void pedalear(){

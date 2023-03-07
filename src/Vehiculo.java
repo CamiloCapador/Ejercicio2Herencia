@@ -49,12 +49,12 @@ public class Vehiculo {
 
     @Override
     public String toString() {
-        return "Vehiculo{" +
-                "marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", color='" + color + '\'' +
-                ", precio=" + precio +
-                '}';
+        return "\nVehiculo" +
+                "\n- Marca = " + marca +
+                "\n- Modelo = " + modelo +
+                "\n- Color = " + color +
+                "\n- Precio = " + precio
+                ;
     }
 
     public void avanzar(){

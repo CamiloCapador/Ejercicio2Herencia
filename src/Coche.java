@@ -51,12 +51,12 @@ public class Coche extends Vehiculo{
 
     @Override
     public String toString() {
-        return "Coche{" +
-                "tipocaja='" + tipocaja + '\'' +
-                ", combustible='" + combustible + '\'' +
-                ", numsillas=" + numsillas +
-                ", numpuertas=" + numpuertas +
-                '}';
+        return super.toString()+"\nCoche" +
+                "\n- Tipo Caja = " + tipocaja +
+                "\n- Combustible = " + combustible +
+                "\n- Número Sillas = " + numsillas +
+                "\n- Número Puertas = " + numpuertas
+                ;
     }
 
     public void acelerar(){
